@@ -2,8 +2,8 @@
 
 ## Warmup Checklist
 
-- [ ] [IMP] Two Sum
-- [ ] [IMP] Valid Anagram
+- [ ] [IMP] Two Sum done
+- [ ] [IMP] Valid Anagram done
 - [ ] [IMP] Contains Duplicate
 - [ ] [IMP] Valid Palindrome
 - [ ] [IMP] Binary Search
