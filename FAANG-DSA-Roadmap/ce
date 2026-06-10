@@ -1,0 +1,91 @@
+#!/usr/bin/env node
+
+const fs = require("fs");
+const path = require("path");
+const { spawnSync } = require("child_process");
+
+const root = __dirname;
+const engine = path.join(root, "tools", "code-engine.js");
+const args = process.argv.slice(2);
+
+if (args.length === 0 || args.includes("-h") || args.includes("--help")) {
+  console.log(`
+Shortcut for the Code Running Engine
+
+Usage:
+  ./ce <file-or-name>
+  ./ce a <file-or-name>
+
+Examples:
+  ./ce twosum
+  ./ce validanagram
+  ./ce 00-start-here/optimal/twosum.js
+  ./ce a validanagram
+
+Use "a" for analyze-only.
+`.trim());
+  process.exit(args.length === 0 ? 1 : 0);
+}
+
+const analyzeOnly = args[0] === "a" || args[0] === "analyze";
+const input = analyzeOnly ? args[1] : args[0];
+
+if (!input) {
+  fail("Please give a file path or solution name.");
+}
+
+const target = resolveTarget(input);
+const engineArgs = analyzeOnly ? [engine, "--analyze-only", target] : [engine, target];
+const result = spawnSync("node", engineArgs, {
+  cwd: root,
+  stdio: "inherit",
+});
+
+process.exit(result.status ?? 1);
+
+function resolveTarget(inputValue) {
+  const directPath = path.resolve(root, inputValue);
+
+  if (fs.existsSync(directPath)) {
+    return path.relative(root, directPath);
+  }
+
+  const normalizedName = inputValue.endsWith(".js") ? inputValue : `${inputValue}.js`;
+  const matches = findJavaScriptFiles(root)
+    .filter((file) => path.basename(file) === normalizedName)
+    .filter((file) => !file.startsWith(`tools${path.sep}`));
+
+  if (matches.length === 1) {
+    return matches[0];
+  }
+
+  if (matches.length > 1) {
+    console.log("Multiple matches found. Use the full path:");
+    matches.forEach((match) => console.log(`  ${match}`));
+    process.exit(1);
+  }
+
+  fail(`No solution found for "${inputValue}".`);
+}
+
+function findJavaScriptFiles(dir, base = dir) {
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  const files = [];
+
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+
+    if (entry.isDirectory()) {
+      files.push(...findJavaScriptFiles(fullPath, base));
+    } else if (entry.isFile() && entry.name.endsWith(".js")) {
+      files.push(path.relative(base, fullPath));
+    }
+  }
+
+  return files;
+}
+
+function fail(message) {
+  console.error(`Error: ${message}`);
+  process.exit(1);
+}

@@ -4,8 +4,8 @@
 
 - [ ] [IMP] Two Sum done
 - [ ] [IMP] Valid Anagram done
-- [ ] [IMP] Contains Duplicate
-- [ ] [IMP] Valid Palindrome
+- [ ] [IMP] Contains Duplicate done
+- [ ] [IMP] Valid Palindrome done
 - [ ] [IMP] Binary Search
 - [ ] [IMP] Merge Two Sorted Lists
 - [ ] [IMP] Valid Parentheses

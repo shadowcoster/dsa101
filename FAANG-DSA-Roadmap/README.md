@@ -13,6 +13,24 @@ Use this as a topic-first practice bank for FAANG-style coding interviews. Each 
    - time and space complexity
    - mistake notes
 
+## Code Running Engine
+
+Run any JavaScript solution and get runtime, output, memory change, and a best-effort time/space complexity estimate:
+
+```bash
+./ce twosum
+```
+
+Analyze complexity without running the code:
+
+```bash
+./ce a validanagram
+```
+
+You can also pass a full path, like `./ce 00-start-here/optimal/twosum.js`.
+
+The Big-O result is a static estimate, so use it as a quick checker and still write your own final interview explanation.
+
 ## Folder Order
 
 1. Arrays and Hashing
