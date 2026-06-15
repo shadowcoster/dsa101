@@ -3,59 +3,109 @@
 ## Data Structure Design
 
 - [ ] [IMP] Min Stack
+  - Problem statement: Design a stack that supports push, pop, top, and retrieving the minimum value in constant time.
 - [ ] [IMP] LRU Cache
+  - Problem statement: Design a cache that supports get and put in O(1) time while evicting the least recently used key when full.
 - [ ] LFU Cache
+  - Problem statement: Given the required inputs for LFU Cache, return the expected result efficiently while handling edge cases.
 - [ ] [IMP] Time Based Key-Value Store
+  - Problem statement: Given the required inputs for Time Based Key-Value Store, return the expected result efficiently while handling edge cases.
 - [ ] [IMP] Design HashMap
+  - Problem statement: Design a hash map supporting put, get, and remove operations without using a built-in hash map.
 - [ ] [IMP] Design HashSet
+  - Problem statement: Design a hash set supporting add, remove, and contains operations without using a built-in hash set.
 - [ ] [IMP] Design Linked List
+  - Problem statement: Design a Linked List system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] [IMP] Design Circular Queue
+  - Problem statement: Design a Circular Queue system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] [IMP] Design Circular Deque
+  - Problem statement: Design a Circular Deque system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Browser History
+  - Problem statement: Design a Browser History system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Parking System
+  - Problem statement: Design a Parking System system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] [IMP] Design Underground System
+  - Problem statement: Design an Underground System system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] [IMP] Design Twitter
+  - Problem statement: Design a simplified social feed supporting posting tweets, following users, unfollowing users, and retrieving recent feed items.
 - [ ] [IMP] Design Hit Counter
+  - Problem statement: Design a Hit Counter system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Snake Game
+  - Problem statement: Design a Snake Game system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Tic-Tac-Toe
+  - Problem statement: Design a Tic-Tac-Toe system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] [IMP] Design Search Autocomplete System
+  - Problem statement: Design a Search Autocomplete System system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] [IMP] Design File System
+  - Problem statement: Design a File System system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] [IMP] Design In-Memory File System
+  - Problem statement: Design an In-Memory File System system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Log Storage System
+  - Problem statement: Design a Log Storage System system or data structure with clear APIs, expected behavior, and efficient operations.
 
 ## Object-Oriented Practice
 
 - [ ] [IMP] Design Elevator
+  - Problem statement: Design an Elevator system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] [IMP] Design Parking Lot
+  - Problem statement: Design a Parking Lot system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Library Management System
+  - Problem statement: Design a Library Management System system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] [IMP] Design Movie Ticket Booking System
+  - Problem statement: Design a Movie Ticket Booking System system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Restaurant Reservation System
+  - Problem statement: Design a Restaurant Reservation System system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] [IMP] Design Vending Machine
+  - Problem statement: Design a Vending Machine system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] [IMP] Design ATM
+  - Problem statement: Design an ATM system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] [IMP] Design Splitwise
+  - Problem statement: Design a Splitwise system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Chess
+  - Problem statement: Design a Chess system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Card Deck
+  - Problem statement: Design a Card Deck system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] [IMP] Design Rate Limiter
+  - Problem statement: Design a Rate Limiter system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design URL Shortener
+  - Problem statement: Design an URL Shortener system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Notification Service
+  - Problem statement: Design a Notification Service system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Food Delivery Matching
+  - Problem statement: Design a Food Delivery Matching system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Ride Sharing Matching
+  - Problem statement: Design a Ride Sharing Matching system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Inventory Management
+  - Problem statement: Design an Inventory Management system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Calendar Booking
+  - Problem statement: Design a Calendar Booking system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Online Judge
+  - Problem statement: Design an Online Judge system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Key-Value Store
+  - Problem statement: Design a Key-Value Store system or data structure with clear APIs, expected behavior, and efficient operations.
 - [ ] Design Pub/Sub Broker
+  - Problem statement: Design a Pub/Sub Broker system or data structure with clear APIs, expected behavior, and efficient operations.
 
 ## Coding Machine Round
 
 - [ ] [IMP] Build an in-memory cache with TTL.
+  - Problem statement: Given the required inputs for Build an in-memory cache with TTL., return the expected result efficiently while handling edge cases.
 - [ ] [IMP] Build a rate limiter with fixed window and sliding window modes.
+  - Problem statement: Given the required inputs for Build a rate limiter with fixed window and sliding window modes., return the expected result efficiently while handling edge cases.
 - [ ] [IMP] Build a basic spreadsheet engine.
+  - Problem statement: Given the required inputs for Build a basic spreadsheet engine., return the expected result efficiently while handling edge cases.
 - [ ] Build a command-line todo app with persistence.
+  - Problem statement: Given the required inputs for Build a command-line todo app with persistence., return the expected result efficiently while handling edge cases.
 - [ ] Build a log aggregator with filters.
+  - Problem statement: Given the required inputs for Build a log aggregator with filters., return the expected result efficiently while handling edge cases.
 - [ ] [IMP] Build a tiny file system tree.
+  - Problem statement: Given the required inputs for Build a tiny file system tree., return the expected result efficiently while handling edge cases.
 - [ ] Build a parking lot allocator.
+  - Problem statement: Given the required inputs for Build a parking lot allocator., return the expected result efficiently while handling edge cases.
 - [ ] Build a movie booking seat allocator.
+  - Problem statement: Given the required inputs for Build a movie booking seat allocator., return the expected result efficiently while handling edge cases.
 - [ ] Build a social feed ranking skeleton.
+  - Problem statement: Given the required inputs for Build a social feed ranking skeleton., return the expected result efficiently while handling edge cases.
 - [ ] Build a simple search autocomplete service.
+  - Problem statement: Given the required inputs for Build a simple search autocomplete service., return the expected result efficiently while handling edge cases.
 

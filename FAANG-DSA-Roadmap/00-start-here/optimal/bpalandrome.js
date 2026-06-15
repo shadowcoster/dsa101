@@ -1,11 +1,11 @@
 const isPalindrome = (s) => {
   let l = 0, r = s.length - 1;
 
-  const valid = (c) =>
+  const valid = (c) =>{
     (c >= 'a' && c <= 'z') ||
     (c >= 'A' && c <= 'Z') ||
     (c >= '0' && c <= '9');
-
+  }
   while (l < r) {
     while (l < r && !valid(s[l])) l++;
     while (l < r && !valid(s[r])) r--;
