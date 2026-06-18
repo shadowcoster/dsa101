@@ -22,7 +22,7 @@
 
 
   - Problem statement: Given a sorted array and a target value, return the target index if it exists, otherwise return -1.
-- [ ] [IMP] Merge Two Sorted Lists
+- [ ] [IMP] Merge Two Sorted Lists pending
 
 
   - Problem statement: Given two sorted linked lists, merge them into one sorted linked list.
